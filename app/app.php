@@ -1,5 +1,6 @@
 <?php
     require_once __DIR__."/../vendor/autoload.php";
+    require_once __DIR__."/../src/JobOpening.php";
 
     $app = new Silex\Application();
 
@@ -32,7 +33,7 @@
         </div>
       </body>
       </html>
-      ";    
+      ";
     });
 
     return $app;
